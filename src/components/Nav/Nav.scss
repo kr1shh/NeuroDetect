@@ -1,0 +1,40 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    font-family: "Montaga";
+
+    .nav_container{
+        margin-top: 20px;
+        padding: 25px 40px;
+        background-color: rgb(34, 34, 34);
+        border-radius: 190px;
+        backdrop-filter: blur(4px) saturate(100%);
+        -webkit-backdrop-filter: blur(4px) saturate(100%);
+        background-color: rgba(0, 0, 0, 0.42);
+        border-radius: 120px;
+        border-top: 1px solid rgba(253, 253, 253,0.7);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+    ._logo{
+        font-size: 30px;
+        color: white;
+        
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
